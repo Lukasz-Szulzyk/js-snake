@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+}
+canvas {
+    border: 3px solid white;
+    
+    display: block;
+    border-radius: 5px;
+}
+body {
+    background-color: black;
+}
+button {
+    width: 100px;
+    height: 70px;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.container {
+    margin: 0 auto;
+    width: 400px;
+}
+.controls {
+    display: flex;
+}
+.info {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex: 1;
+    color: white;
+    padding-top: 30px;
+    text-align: left;
+    font-size: small;
+}
+.dpad {
+    flex: 2;
+}
