@@ -1,40 +1,56 @@
 body {
-    text-align: center;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #8cb9d5;
 }
-canvas {
-    border: 3px solid white;
-    
-    display: block;
+
+.container {
+    padding: 10px;
     border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 43px -14px rgba(66, 68, 90, 1);
 }
-body {
-    background-color: black;
+
+canvas {
+
+    display: block;
 }
+
 button {
     width: 100px;
     height: 70px;
-    color: white;
-    background-color: black;
-    border: 3px solid white;
+    color: black;
+    background-color: white;
+    border: 3px solid black;
     margin: 5px;
     border-radius: 5px;
-    font-size: 20px;
-}
-.container {
-    margin: 0 auto;
-    width: 400px;
+    font-size: 30px;
 }
 .controls {
     display: flex;
+    padding-left: 10px
 }
 .info {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     flex: 1;
-    color: white;
+    color: black;
     padding-top: 30px;
     text-align: left;
     font-size: small;
 }
 .dpad {
     flex: 2;
+    text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+    .container {
+        padding: 0;
+    }
+    body {
+        align-items: normal;
+    }
 }

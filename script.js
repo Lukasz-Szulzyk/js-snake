@@ -81,7 +81,7 @@
     }
 
     function randomFood() {
-        const colors = ["yellow", "silver", "white", "orange"];
+        const colors = ["yellow", "green", "cyan", "orange", "pink"];
         food.color = colors[Math.floor(Math.random() * colors.length)];
 
         function randV(min, max) {
